@@ -18,14 +18,59 @@ div.header {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 200px;
+	height: 175px;
 	background-color: #33ADD6;
+	position: relative;
 }
 
-div.header p {
+p.heading {
 	padding: 20px 0 0 20px;
 	margin: 0;
 	font-size: 80px;
 	color: 	#3D1F00;
+	text-shadow: 2px 2px 2px white;
 	font-family: 'romeralregular';
+}
+
+p.desc {
+	padding: 0 0 0 20px;
+	margin: 0;
+	font-size: 20px;
+	color: 	white;
+	font-family: 'romeralregular';	
+}
+
+p.desc span {
+	background-color: #3D1F00;
+	padding: 7px;
+	border-radius: 3px;
+	margin-left: 10px;
+	margin-right: 7px;
+	-webkit-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+
+p.desc span:hover {
+	cursor: pointer;
+	color: #33ADD6;
+}
+
+div.meteor p {
+	margin: 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	font-family: 'romeralregular';
+	font-size: 20px;
+	text-align: center;
+	background-color: #3D1F00;
+}
+
+div.meteor p span a {
+	text-decoration: none;
+	color: #33ADD6;
 }
