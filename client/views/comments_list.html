@@ -1,0 +1,13 @@
+<template name="comments_list">
+	{{#each comments}}
+		<div class="comment">
+			<!-- <div class="comment_graphics">
+				<div class="circle"></div>
+			</div> -->
+			<p class="comment_text">{{comment}}
+				<br/>
+				<span>{{name}}</span>
+			</p>
+		</div>
+	{{/each}}
+</template>

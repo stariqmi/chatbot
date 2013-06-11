@@ -1,0 +1,59 @@
+section.steps {
+	text-align: left;
+	width: 350px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #33ADD6;
+	font-family: 'romeralregular';
+	font-size: 20px;
+	float: left;
+}
+
+section.steps p span {
+	font-size: 17px;
+}
+
+section.steps.github {
+	width: 310px;
+	padding: 20px;
+	color: white;
+	background-color: #33ADD6;
+}
+
+section.steps.github a {
+	color: #3D1F00;
+	text-decoration: none;
+}
+
+div.section_steps:after {
+	clear: both;
+	display: table;
+	content: "";
+}
+
+div.step_wrapper h3 {
+	margin-top: 40px;
+	font-family: 'romeralregular';
+	color: #3D1F00;
+}
+
+h3.tutorial_text a{
+	color: white;
+	background-color: #33ADD6;
+	padding: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 5px;
+	border-radius: 3px;
+	text-decoration: none;
+	transition: all ease 0.2s;
+}
+
+div.step_wrapper h3.tutorial_text a:hover{
+	color: #3D1F00;
+}
+
+
+div.section_steps {
+	display: inline-block;
+}
