@@ -1,0 +1,1 @@
+Chatbots = new Meteor.Collection("chatbots");

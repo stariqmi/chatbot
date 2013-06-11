@@ -38,7 +38,7 @@ div.step_wrapper h3 {
 }
 
 h3.tutorial_text a{
-	color: white;
+	color: #3D1F00;
 	background-color: #33ADD6;
 	padding: 7px;
 	padding-left: 10px;
@@ -49,8 +49,8 @@ h3.tutorial_text a{
 	transition: all ease 0.2s;
 }
 
-div.step_wrapper h3.tutorial_text a:hover{
-	color: #3D1F00;
+h3.tutorial_text a:hover{
+	color: white;
 }
 
 

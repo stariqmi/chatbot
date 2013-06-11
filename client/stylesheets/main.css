@@ -33,6 +33,11 @@ p.heading {
 	font-family: 'romeralregular';
 }
 
+p.heading a {
+	text-decoration: none;
+	color: inherit;
+}
+
 p.desc {
 	padding: 0 0 0 20px;
 	margin: 0;
@@ -41,7 +46,9 @@ p.desc {
 	font-family: 'romeralregular';	
 }
 
-p.desc span {
+p.desc a {
+	color: white;
+	text-decoration: none;
 	background-color: #3D1F00;
 	padding: 7px;
 	border-radius: 3px;
@@ -54,12 +61,12 @@ p.desc span {
 	transition: all ease 0.3s;
 }
 
-p.desc span:hover {
+p.desc a:hover {
 	cursor: pointer;
 	color: #33ADD6;
 }
 
-p.desc span:active {
+p.desc a:active {
 	color: white;
 }
 
