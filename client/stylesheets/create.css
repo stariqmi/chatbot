@@ -1,0 +1,66 @@
+div.form_wrapper {
+}
+
+.form_wrapper table {
+	margin-top: 50px;
+}
+
+.form_wrapper table td {
+	text-align: right;
+}
+
+.form_wrapper p {
+	margin: 0;
+	display: inline-block;
+	color: #3D1F00;
+	font-family: 'romeralregular';
+	font-size: 20px;
+}
+
+.form_wrapper input {
+	background-color: #33ADD6;
+	border: none;
+	width: 330px;
+	height: 30px;
+	color: #3D1F00;
+	font-family: 'romeralregular';
+	font-size: 20px;
+	padding: 10px;
+	margin-left: 20px;
+	border-radius: 3px;
+}
+
+div.create_button {
+	width: 100px;
+	height: 30px;
+	padding: 5px;
+	background-color: #3D1F00;
+	color: white;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 20px;
+	border-radius: 3px;
+	font-family: 'romeralregular';
+	transition: all ease 0.3s;
+}
+
+div.create_button:hover {
+	cursor: pointer;
+	color: #33ADD6;
+}
+
+div.error {
+	margin-top: 30px;
+	background-color: red;
+	width: 400px;
+	padding: 2px;
+	line-height: 25px;
+	display: none;
+}
+
+div.error p {
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bolder;
+	color: white;
+}
