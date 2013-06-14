@@ -94,7 +94,7 @@ Template.chat_page.events =  {
 				message: new_message,
 				url: url
 			});
-
+			$(window).scrollTop($(window).height());
 			$('.new_message').val('');
 		}
 	}
