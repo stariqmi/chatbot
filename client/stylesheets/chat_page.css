@@ -1,6 +1,7 @@
 div.messages_wrapper {
 	display: inline-block;
 	margin-top: 50px;
+	min-width: 780px;
 }
 
 div.messages {
@@ -36,6 +37,8 @@ p.message_details {
 
 div.chat_panel {
 	float: left;
+	position: relative;
+	top: 0;
 }
 
 div.display_name {
@@ -103,7 +106,7 @@ span.set:hover {
 	color: #3D1F00;
 }
 
-div.insert {
+div.insert, div.set_name {
 	width: 100px;
 	height: 25px;
 	padding: 5px;
@@ -115,7 +118,11 @@ div.insert {
 	border-radius: 3px;
 }
 
-div.insert:hover {
+div.insert:hover, div.set_name:hover {
 	color: #3D1F00;
 	cursor: pointer;
+}
+
+div.set_name {
+	margin-top: 10px;
 }
