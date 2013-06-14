@@ -1,0 +1,22 @@
+<template name="chat_page">
+	<center>
+	<div class="messages_wrapper">
+		<div class="messages">
+		{{#each messages}}
+			<div class="message">
+				<p class="message_text">{{message}}</p>
+				<p class="message_details">{{name}}</p>
+			</div>
+		{{/each}}
+		</div>
+		<div class="chat_panel">
+			<div class="display_name"><p class="display_text">Display name: <span class="name"></span><span class="set">set name</span></p></div>
+			<div class="new_name">
+			<input class="new_name_input" type="text" placeholder="set a display name here ... " />
+			</div>
+			<textarea class="new_message" placeholder="type new message here ... "></textarea>
+			<div class="insert">Send</div>
+		</div>
+	</div>
+	</center>
+</template>

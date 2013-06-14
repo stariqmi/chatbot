@@ -1,0 +1,121 @@
+div.messages_wrapper {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+div.messages {
+	margin-right: 20px;
+	float: left;
+}
+
+div.message {
+	width: 350px;
+	padding: 5px;
+	margin-top: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 20px;
+	background-color: #33ADD6;
+	text-align: left;
+}
+
+.messages_wrapper p {
+	font-family: Helvetica;
+	font-size: 15px;
+	margin: 0px;
+	color: white;
+}
+
+p.message_details {
+	text-align: right;
+	font-size: 14px;
+	font-style: italic;
+	margin: 0px;
+	color: #3D1F00;
+}
+
+div.chat_panel {
+	float: left;
+}
+
+div.display_name {
+	width: 340px;
+	padding: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	height: 40px;
+	background-color: #3D1F00;
+}
+
+p.display_text {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: left;
+	font-size: 16px;
+	font-family: 'romeralregular';
+	line-height: 40px;
+	margin-left: 10px;
+}
+
+span.set, span.name {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 14px;
+	font-family: Helvetica;	
+	font-style: italic;
+	color: #33ADD6;
+}
+
+span.name {
+	max-width: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: bold;
+	font-style: normal;
+}
+
+span.set:hover {
+	cursor: pointer;
+	color: white;
+}
+
+.chat_panel textarea {
+	padding: 10px;
+	margin-top: 10px;
+	color: #3D1F00;
+	width: 330px;
+	height: 70px;
+}
+
+.new_name {
+	display: none;
+}
+
+.new_name input {
+	height: 20px;
+	font-size: 15px;
+	padding: 10px;
+	width: 330px;
+	border: 1px solid black;
+	margin-top: 10px;
+	color: #3D1F00;
+}
+
+div.insert {
+	width: 100px;
+	height: 25px;
+	padding: 5px;
+	line-height: 25px;
+	background-color: #33ADD6;
+	font-family: 'romeralregular';
+	font-size: 17px;
+	color: white;
+	border-radius: 3px;
+}
+
+div.insert:hover {
+	color: #3D1F00;
+	cursor: pointer;
+}
