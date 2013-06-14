@@ -94,14 +94,14 @@ Template.chat_page.events =  {
 				message: new_message,
 				url: url
 			});
-			$(window).scrollTop($(window).height());
+			$(window).scrollTop($('body').height());
 			$('.new_message').val('');
 		}
 	}
 }
 
 Template.chat_page.rendered = function() {
-	$(window).scrollTop($(window).height());
+	$(window).scrollTop($('body').height());
 
 	$(window).on('scroll', function() {
 		var scroll_height = $(window).scrollTop();
